@@ -19,6 +19,10 @@ public class TetrisPiece {
 
     }
 
+    public TetrisPiece copy(){
+        return new TetrisPiece(distance, direction);
+    }
+
     public int getX() {
         return x;
     }
