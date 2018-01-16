@@ -8,8 +8,8 @@ public class TetrisPiece {
         this.distance = distance;
         this.direction = direction;
     }
-//          011
-    //      1
+//           011
+    //      11
     public void setParent(Tetromino parent) {
         this.parent = parent;
 
